@@ -12,10 +12,11 @@
 
  // TODO 1:
  // Define FSR analog pin (Use A0)
-
+int fsrPin = A0;
 
  // TODO 2:
  // Create variable to store sensor reading
+int fsrReading = analogRead(fsrPin);
 
 
 void setup() {
