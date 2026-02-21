@@ -43,6 +43,9 @@ void loop() {
 
     // TODO 7:
     // Apply simple threshold logic (e.g., detect pressure)
+    if (fsrReading > 500) { // Example threshold value
+        Serial.println("Pressure Detected!");
+    }
 
 
     // TODO 8:
