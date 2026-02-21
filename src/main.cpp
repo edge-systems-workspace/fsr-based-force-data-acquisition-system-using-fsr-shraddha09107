@@ -2,8 +2,8 @@
 /**
  * @file main.ino
  * @brief Embedded Force Measurement System using FSR
- * @author YOUR_NAME
- * @date YYYY-MM-DD
+ * @author Shraddha Singh
+ * @date 21 February 2026
  *
  * @details
  * Reads analog force data from FSR sensor and
@@ -13,8 +13,10 @@
  // TODO 1:
  // Define FSR analog pin (Use A0)
 
+
  // TODO 2:
  // Create variable to store sensor reading
+
 
 void setup() {
 
